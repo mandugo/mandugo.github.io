@@ -28,7 +28,7 @@ theme = "LoveIt"
     pre = ""
     post = ""
     name = "Curriculum Vitae"
-    url = "/CV/"
+    url = "/cv"
     title = "Curriculum Vitae"
   [[menu.main]]
     weight = 3
