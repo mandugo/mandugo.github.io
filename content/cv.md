@@ -3,7 +3,6 @@
 **Senior Research Collaborator** @ Radar and Surveillance Systems (RaSS) National Lab, CNIT
 
 ## Work Experience
----
 
 ### RaSS National Lab
 ->_Pisa, Italy_
@@ -35,14 +34,16 @@
 - Proactively participated in the team's weekly meetings and conducted reports on the project's progress
 
 ## Skills
----
 
-Technical: `Python` `Go` `Microservices Architecture`
+Languages: `C/C++` `Python` `MATLAB` `JavaScript` `LaTeX`
 
-Management: `Kanban Methodology` `Scrum`
+Developer Tools: `Git` `Jupyter Notebook` `Visual Studio Code` `GNU Radio`
+
+Libraries: `Scikit-learn` `Matplotlib` `Numpy` `SciPy` `Xarray`
+
+Operating Systems: `Windows` `Unix` `MacOS`
 
 ## Education
----
 
 ### University of Pisa
 ->_2021-present_ \
