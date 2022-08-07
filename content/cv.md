@@ -1,8 +1,9 @@
 # **Francesco Mancuso**
-PhD Student @ Department of Information Engineering (DII), University of Pisa
-Senior Research Collaborator @ Radar and Surveillance Systems (RaSS) National Lab, CNIT
+**PhD Student** @ Department of Information Engineering (DII), University of Pisa \
+**Senior Research Collaborator** @ Radar and Surveillance Systems (RaSS) National Lab, CNIT
 
 ## Work Experience
+---
 
 ### RaSS National Lab
 ->_Pisa, Italy_
@@ -34,23 +35,33 @@ Senior Research Collaborator @ Radar and Surveillance Systems (RaSS) National La
 - Proactively participated in the team's weekly meetings and conducted reports on the project's progress
 
 ## Skills
+---
 
 Technical: `Python` `Go` `Microservices Architecture`
 
 Management: `Kanban Methodology` `Scrum`
 
 ## Education
+---
 
 ### University of Pisa
-->_2014-2016_
-**Masters of Computer Science**, _Pittsburgh, Pennsylvania_
+->_2021-present_ \
+**PhD in Information Engineering**, \
+_Pisa, Italy_
 
 ### University of Pisa
-->_2014-2016_
-**Masters of Computer Science**, _Pittsburgh, Pennsylvania_
+->_2018-2021_ \
+**MSc in Telecommunication Engineering [110/110 cum laude]**, \
+_Pisa, Italy_
 
 ### University of Pisa
-->_2010 - 2014_
-**Bachelor of Engineering**,  _Oswego, New York_
+->_2013 - 2017_ \
+**BSc in Telecommunication Engineering [108/110]**, \
+_Pisa, Italy_
+
+### ITI "E. Scalfaro"
+->_2008 - 2013_ \
+**High School Diploma in Industrial Engineering: Electronic and Telecommunication [100/100]**, \
+_Catanzaro, Italy_
 
 ---
