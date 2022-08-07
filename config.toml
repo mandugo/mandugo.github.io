@@ -32,12 +32,12 @@ theme = "LoveIt"
     title = "Curriculum Vitae"
   [[menu.main]]
     weight = 3
-    identifier = "categories"
+    identifier = "publications"
     pre = ""
     post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+    name = "Publications"
+    url = "/publications"
+    title = "Publications"
 
 [params]
   # site default theme ["auto", "light", "dark"]
