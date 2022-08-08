@@ -1,7 +1,34 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Personal Website'
+baseURL = "http://example.org/"
+
+# Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
+
+# website title
+title = "My New Hugo Site"
+
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "en"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "English"
+# whether to include Chinese/Japanese/Korean
+hasCJKLanguage = false
+
+# default amount of posts in each pages
+paginate = 12
+# google analytics code [UA-XXXXXXXX-X]
+googleAnalytics = ""
+# copyright description used only for seo schema
+copyright = ""
+
+# whether to use robots.txt
+enableRobotsTXT = true
+# whether to use git commit log
+enableGitInfo = true
+# whether to use emoji code
+enableEmoji = true
+
+# ignore some build errors
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Author config
 [author]
@@ -50,16 +77,72 @@ theme = "LoveIt"
   # LoveIt NEW | 0.2.0 date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "This is my new website!"
+  title = "Francesco Mancuso"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my new website!"
+  description = "Francesco Mancuso"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["/images/avatar.jpg"]
+
+  # Header config
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+    # LoveIt NEW | 0.2.0 Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "Home"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
+      typeit = false
+
+  # Footer config
+  [params.footer]
+    enable = true
+    # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
+    custom = ''
+    # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
+    hugo = true
+    # LoveIt NEW | 0.2.0 whether to show copyright info
+    copyright = true
+    # LoveIt NEW | 0.2.0 whether to show the author
+    author = true
+    # Site creation time
+    since = 2022
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+    # LoveIt NEW | 0.2.0 Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+
+  # LoveIt NEW | 0.2.0 List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+
 
   # LoveIt NEW | 0.2.0 App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "This is my new website!"
+    title = "Francesco Mancuso"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -83,11 +166,11 @@ theme = "LoveIt"
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "This is my new website!"
+      title = "Francesco Mancuso"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "This is my new website!"
+      subtitle = "PhD Student @ University of Pisa"
       # whether to use typeit animation for subtitle
-      typeit = true
+      typeit = false
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
@@ -110,3 +193,93 @@ theme = "LoveIt"
     GoogleScholar = "UwVa-gsAAAAJ"
     Lastfm = "frankirchhoff"
     Email = "francesco.mancuso@ieee.org"
+
+  # LoveIt CHANGED | 0.2.0 Page global config
+  [params.page]
+    # LoveIt NEW | 0.2.0 whether to hide a page from home page
+    hiddenFromHomePage = false
+    # LoveIt NEW | 0.2.0 whether to hide a page from search results
+    hiddenFromSearch = false
+    # LoveIt NEW | 0.2.0 whether to enable twemoji
+    twemoji = false
+    # whether to enable lightgallery
+    lightgallery = false
+    # LoveIt NEW | 0.2.0 whether to enable the ruby extended syntax
+    ruby = true
+    # LoveIt NEW | 0.2.0 whether to enable the fraction extended syntax
+    fraction = true
+    # LoveIt NEW | 0.2.0 whether to enable the fontawesome extended syntax
+    fontawesome = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    # LoveIt NEW | 0.2.4 whether to show the full text content in RSS
+    rssFullText = false
+    # LoveIt NEW | 0.2.0 Table of the contents config
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # LoveIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+      keepStatic = true
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+    # LoveIt CHANGED | 0.2.0 KaTeX mathematical formulas
+    [params.page.math]
+      enable = true
+      # LoveIt CHANGED | 0.2.11 default inline delimiter is $ ... $ and \( ... \)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      # LoveIt CHANGED | 0.2.11 default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      # KaTeX extension copy_tex
+      copyTex = true
+      # KaTeX extension mhchem
+      mhchem = true
+    # LoveIt NEW | 0.2.0 Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 50
+    # LoveIt NEW | 0.2.0 Mapbox GL JS config
+    [params.page.mapbox]
+      # access token of Mapbox GL JS
+      accessToken = ""
+      # style for the light theme
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      # style for the dark theme
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      # whether to add NavigationControl
+      navigation = true
+      # whether to add GeolocateControl
+      geolocate = true
+      # whether to add ScaleControl
+      scale = true
+      # whether to add FullscreenControl
+      fullscreen = true
+    # LoveIt CHANGED | 0.2.0 social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = false
+      Linkedin = true
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Flipboard = false
+      Weibo = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
