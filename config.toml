@@ -178,7 +178,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = '<p style="font-size:0.875vw">Picture courtesy of <a href="http://www.valentinaprocopio.it" target="_blank">Valentina Procopio</a></p>'
+      disclaimer = '<p style="font-size:1vw">Picture courtesy of <a href="http://www.valentinaprocopio.it" target="_blank">Valentina Procopio</a></p>'
 
     # Home page posts
     [params.home.posts]
