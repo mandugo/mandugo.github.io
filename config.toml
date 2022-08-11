@@ -6,6 +6,8 @@ theme = "LoveIt"
 # website title
 title = "Francesco Mancuso"
 
+publishDir = "docs"
+
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
