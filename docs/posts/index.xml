@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Francesco Mancuso</title>
-        <link>https://mandugo.github.io/posts/</link>
+        <link>mandugo.github.io/posts/</link>
         <description>All Posts | Francesco Mancuso</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>francesco.mancuso@ieee.org (Francesco Mancuso)</managingEditor>
-            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:02:52 &#43;0200</lastBuildDate><atom:link href="https://mandugo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:02:52 &#43;0200</lastBuildDate><atom:link href="mandugo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Welcome to my new website!</title>
-    <link>https://mandugo.github.io/posts/my-first-post/</link>
+    <link>mandugo.github.io/posts/my-first-post/</link>
     <pubDate>Sun, 07 Aug 2022 16:02:52 &#43;0200</pubDate>
     <author>Francesco Mancuso</author>
-    <guid>https://mandugo.github.io/posts/my-first-post/</guid>
+    <guid>mandugo.github.io/posts/my-first-post/</guid>
     <description><![CDATA[This is my first post on my brand new website! I&rsquo;m so happy to share it with you!]]></description>
 </item>
 </channel>
