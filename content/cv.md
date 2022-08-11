@@ -43,7 +43,7 @@
 
 ## Skills
 
-Languages: `C/C++` `Python` `MATLAB` `JavaScript` `LaTeX`
+Languages: `MATLAB` `Python` `LaTeX` `C/C++` `JavaScript`
 
 Developer Tools: `Git` `Jupyter Notebook` `Visual Studio Code` `GNU Radio`
 
