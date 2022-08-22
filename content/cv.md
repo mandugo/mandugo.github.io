@@ -19,8 +19,12 @@
 > - 3D Radar Imaging for Non-Cooperative Target Recognition
 
 > ### [Move Solutions](https://www.movesolutions.it)
+<<<<<<< HEAD
 > test
+=======
+>>>>>>> fbe769d132461d6095646a9f06965a277c82524c
 > _Lucca, Italy_
+> test
 > 
 > **R&D Engineer**
 > 

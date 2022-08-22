@@ -1,18 +1,44 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Francesco Mancuso</title>
-        <link>https://mandugo.github.io/</link>
-        <description>Francesco Mancuso</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>francesco.mancuso@ieee.org (Francesco Mancuso)</managingEditor>
-            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:02:52 &#43;0200</lastBuildDate>
-            <atom:link href="https://mandugo.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Welcome to my new website!</title>
-    <link>https://mandugo.github.io/posts/my-first-post/</link>
-    <pubDate>Sun, 07 Aug 2022 16:02:52 &#43;0200</pubDate>
-    <author>Francesco Mancuso</author>
-    <guid>https://mandugo.github.io/posts/my-first-post/</guid>
-    <description><![CDATA[This is my first post on my brand new website! I&rsquo;m so happy to share it with you!]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Francesco Mancuso</title>
+    <link>https://mandugo.github.io/</link>
+    <description>Recent content on Francesco Mancuso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>francesco.mancuso@ieee.org (Francesco Mancuso)</managingEditor>
+    <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster>
+    <lastBuildDate>Sun, 07 Aug 2022 16:02:52 +0200</lastBuildDate><atom:link href="https://mandugo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to my new website!</title>
+      <link>https://mandugo.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 07 Aug 2022 16:02:52 +0200</pubDate>
+      <author>francesco.mancuso@ieee.org (Francesco Mancuso)</author>
+      <guid>https://mandugo.github.io/posts/my-first-post/</guid>
+      <description>This is my first post on my brand new website! I&amp;rsquo;m so happy to share it with you!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mandugo.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>francesco.mancuso@ieee.org (Francesco Mancuso)</author>
+      <guid>https://mandugo.github.io/cv/</guid>
+      <description>Francesco Mancuso Currently PhD Student @ Department of Information Engineering (DII), University of Pisa Senior Research Collaborator @ Radar and Surveillance Systems (RaSS) National Lab, CNIT Research Interests Radar Systems Radar Imaging Signal Processing
+Work Experience RaSS National Lab Pisa, Italy
+Senior Research Collaborator
+Sep 2021 to Present
+ATR by means of Polarimetric ISAR Images and multi-view 3D InISAR 3D Radar Imaging for Non-Cooperative Target Recognition Move Solutions Lucca, Italy test</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mandugo.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>francesco.mancuso@ieee.org (Francesco Mancuso)</author>
+      <guid>https://mandugo.github.io/publications/</guid>
+      <description>List of publications 2022 F. Mancuso, E. Giusti, A. Kumar, S. Ghio, M. Martorella, “Comparative assessment of polarimetric features estimation in Fully Polarimetric 3D-ISAR Imaging”, IET Radar 2022, 2022 E. Giusti, A. Kumar, F. Mancuso, S. Ghio, M. Martorella, “Fully Polarimetric Multi-Aspect 3D InISAR”, 2022 International Radar Symposium (IRS), 2022 A. Kumar, E. Giusti, F. Mancuso, M. Martorella, “Polarimetric Interferometric ISAR based 3-D imaging of non-cooperative target”, International Geoscience and Remote Sensing Symposium (IGARSS), 2022 F.</description>
+    </item>
+    
+  </channel>
 </rss>
