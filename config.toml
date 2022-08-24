@@ -18,7 +18,7 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
-googleAnalytics = ""
+googleAnalytics = "G-96WNTH0BMR"
 # copyright description used only for seo schema
 copyright = ""
 
