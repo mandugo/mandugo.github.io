@@ -8,10 +8,10 @@ draft: false
 This is my first post on my brand new website! I'm so happy to share it with you!
 
 ## Main Image
-![Image](/static/firstPostImages/nordStream.jpg)
+![Image](/firstPostImages/nordStream.jpg)
 
 ## First leak
-![Image 2](/static/firstPostImages/nordStream_1.jpg)
+![Image 2](/firstPostImages/nordStream_1.jpg)
 
-##ß Other leaks
-![Image 3](/static/firstPostImages/nordStream_2.jpg)
+## Other leaks
+![Image 3](/firstPostImages/nordStream_2.jpg)
