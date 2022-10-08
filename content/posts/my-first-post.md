@@ -9,11 +9,14 @@ Three leaks have been reported near the island of Bornholm, two pipelines runnin
 
 ## Main Image
 ![Image](/firstPostImages/nordStream.jpg)
+| **Image Credits - Fig.1 - 4K Mountains Wallpaper** |
 
 ## First leak
 ![Image 2](/firstPostImages/nordStream_1.jpg)
+| **Image Credits - Fig.2 - 4K Mountains Wallpaper** |
 
 ## Other leaks
 ![Image 3](/firstPostImages/nordStream_2.jpg)
+| **Image Credits - Fig.3 - 4K Mountains Wallpaper** |
 
 {{< tweet user="ar_etsch" id="1575747002557640704" >}}
