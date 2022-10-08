@@ -16,4 +16,4 @@ Three leaks have been reported near the island of Bornholm, two pipelines runnin
 ## Other leaks
 ![Image 3](/firstPostImages/nordStream_2.jpg)
 
-{{ < tweet-single 1575747002557640704 >}}
+{{ < tweet 1575747002557640704 >}}
