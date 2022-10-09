@@ -9,6 +9,8 @@ images:
 featuredImagePreview: /firstPostImages/nordStream.jpg
 ---
 
+<!--more-->
+
 # Can Sentinel-1 see the Nord Stream leaks from space?
 
 Three leaks have been reported near the island of Bornholm, two pipelines running underwater from Russia to Germany were damaged some days ago.
