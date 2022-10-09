@@ -2,7 +2,11 @@
 title: "Nord Stream Pipelines leaks seen from space"
 date: 2022-10-01
 draft: false
+tags: ["sentinel1", "gasleaks", "SAR"]
+header:
+  image: "/firstPostImages/nordStream.jpg"
 ---
+
 # Can Sentinel-1 see the Nord Stream leaks from space?
 
 Three leaks have been reported near the island of Bornholm, two pipelines running underwater from Russia to Germany were damaged some days ago.
