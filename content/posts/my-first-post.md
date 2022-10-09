@@ -3,7 +3,7 @@ title: "Nord Stream Pipelines leaks seen from space"
 date: 2022-10-01
 draft: false
 tags: ["Sentinel-1", "SAR"]
-thumbnail: "/firstPostImages/nordStream.jpg"
+header_image: "/firstPostImages/nordStream.jpg"
 ---
 
 # Can Sentinel-1 see the Nord Stream leaks from space?
