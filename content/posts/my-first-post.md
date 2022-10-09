@@ -3,7 +3,7 @@ title: "Nord Stream Pipelines leaks seen from space"
 date: 2022-10-01
 draft: false
 tags: ["Sentinel1", "SAR"]
-featuredImagePreview: nordStream.jpg
+featuredImagePreview: /firstPostImages/nordStream.jpg
 ---
 
 # Can Sentinel-1 see the Nord Stream leaks from space?
@@ -22,13 +22,12 @@ Three leaks have been reported near the island of Bornholm, two pipelines runnin
 ## Other leaks
 | ![Image 2](/firstPostImages/nordStream_2.jpg) |
 |:--:|
-| **Figure 3:** 26 Semptmber 2022 |
+| **Figure 3:** 26 September 2022 |
 
 ## First leak
 | ![Image 3](/firstPostImages/nordStream_1.jpg) |
 |:--:|
-| **Figure 4:** 27 Semptmber 2022 |
+| **Figure 4:** 27 September 2022 |
 
 ## What does the tweets say
-| {{< tweet user="ar_etsch" id="1575747002557640704" >}} |
-|:--:|
+{{< tweet user="ar_etsch" id="1575747002557640704" >}}
