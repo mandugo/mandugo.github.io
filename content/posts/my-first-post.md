@@ -3,6 +3,8 @@ title: "Nord Stream Pipelines leaks seen from space"
 date: 2022-10-01
 draft: false
 tags: ["Sentinel1", "SAR"]
+images:
+- /firstPostImages/nordStream.jpg
 featuredImagePreview: /firstPostImages/nordStream.jpg
 ---
 
