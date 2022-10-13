@@ -34,5 +34,5 @@ Three leaks have been reported near the island of Bornholm, two pipelines runnin
 |:--:|
 | **Figure 4:** 27 September 2022 |
 
-## What does the tweets say
+## What do the tweets say
 {{< tweet user="ar_etsch" id="1575747002557640704" >}}
