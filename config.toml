@@ -158,6 +158,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Windows v8-10 tile color
     tileColor = "#da532c"
 
+  [params.sidebar.twitter]
+  path = "sidebar/twitter"
+  [params.sidebar.twitter.partial]
+      path = "sidebar/twitter/twitterFeed.html"
+      cache = true
   # Home page config
   [params.home]
     # LoveIt NEW | 0.2.0 amount of RSS pages
