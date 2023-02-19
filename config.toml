@@ -158,11 +158,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Windows v8-10 tile color
     tileColor = "#da532c"
 
-  [params.sidebar.twitter]
-  path = "sidebar/twitter"
-  [params.sidebar.twitter.partial]
-      path = "sidebar/twitter/twitterFeed.html"
-      cache = true
   # Home page config
   [params.home]
     # LoveIt NEW | 0.2.0 amount of RSS pages
@@ -203,6 +198,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     GoogleScholar = "UwVa-gsAAAAJ"
     Lastfm = "frankirchhoff"
     Email = "francesco.mancuso@ieee.org"
+
+  [params.sidebar.twitter]
+  path = "sidebar/twitter"
+  [params.sidebar.twitter.partial]
+      path = "sidebar/twitter/twitterFeed.html"
+      cache = true
 
   # LoveIt CHANGED | 0.2.0 Page global config
   [params.page]
