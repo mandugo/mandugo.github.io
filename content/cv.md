@@ -55,6 +55,7 @@ Operating Systems: `Windows` `Unix` `MacOS`
 
 > ### Qualification to the Profession
 > _2022_
+>
 > Information Engineering, Sector A
 
 > ### PhD in Information Engineering
