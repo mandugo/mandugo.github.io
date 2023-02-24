@@ -199,12 +199,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Lastfm = "frankirchhoff"
     Email = "francesco.mancuso@ieee.org"
 
-  [params.sidebar.twitter]
-  path = "sidebar/twitter"
-  [params.sidebar.twitter.partial]
-      path = "sidebar/twitter/twitterFeed.html"
-      cache = true
-
   # LoveIt CHANGED | 0.2.0 Page global config
   [params.page]
     # LoveIt NEW | 0.2.0 whether to hide a page from home page
