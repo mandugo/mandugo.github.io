@@ -1,8 +1,8 @@
 # **Francesco Mancuso**
 
 #### Currently
-- **PhD Student** @ [**Department of Information Engineering (DII)**](https://www.dii.unipi.it), University of Pisa
-- **Senior Research Collaborator** @ [**Radar and Surveillance Systems (RaSS) National Lab**](https://labrass.cnit.it), CNIT
+- **Visiting PhD Student** @ [**School of Electrical and Electronic Engineering**](https://set.adelaide.edu.au/electrical-electronic-engineering/), University of Adelaide, Adelaide SA 5000, Australia
+- **PhD Student** @ [**Department of Information Engineering (DII)**](https://www.dii.unipi.it), University of Pisa, Pisa, Italy
 
 #### Research Interests
 `Radar Systems` `Radar Imaging` `Signal Processing`
@@ -14,7 +14,7 @@
 > 
 > **Senior Research Collaborator**
 > 
-> _Sep 2021 to Present_
+> _Sep 2021 to Nov 2022_
 > - ATR by means of Polarimetric ISAR Images and multi-view 3D InISAR
 > - 3D Radar Imaging for Non-Cooperative Target Recognition
 
