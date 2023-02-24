@@ -53,6 +53,10 @@ Operating Systems: `Windows` `Unix` `MacOS`
 
 ## Education
 
+> ### Qualification to the Profession
+> _2022_
+> Information Engineering, Sector A
+
 > ### PhD in Information Engineering
 > _2021 - Present_
 >
@@ -100,7 +104,7 @@ _Apr 2020 - Sep 2020_
         2. **Upscaling Ideas for RACE Platform - Fourth Prize Winner** - _Sep 2020_
 
 ## Certificates
-- English for Research Publication and Presentation Purposes (C1)
+- English for Research Publication and Presentation Purposes (C1+)
 - Cambridge ESOL – First Certificate in English (B2)
 - Completion certificate – Cisco Networking Academy, IT Essential: PC Hardware and Software
 
