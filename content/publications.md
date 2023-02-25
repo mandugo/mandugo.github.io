@@ -2,8 +2,8 @@
 
 ## 2023
 
-- G. Meucci, **F. Mancuso**, E. Giusti, A. Kumar, S. Ghio, M. Martorella, _“Point Cloud Transformer (PCT) for 3D-InISAR Automatic Target Recognition”_, 2023 IEEE Radar Conference (RadarConf'23), 2023.
-- A. Kumar, E. Giusti, **F. Mancuso**, S. Ghio, A. Lupidi and M. Martorella, _"Three-Dimensional Polarimetric InISAR Imaging of Non-Cooperative Targets,"_ in IEEE Transactions on Computational Imaging, 2023, pp. 1-13, DOI: [10.1109/TCI.2023.3248942](https://ieeexplore.ieee.org/document/10052768/authors#authors).
+- G. Meucci, **F. Mancuso**, E. Giusti, A. Kumar, S. Ghio, M. Martorella, _“Point Cloud Transformer (PCT) for 3D-InISAR Automatic Target Recognition”_, 2023 IEEE Radar Conference (RadarConf'23), 2023
+- A. Kumar, E. Giusti, **F. Mancuso**, S. Ghio, A. Lupidi and M. Martorella, _"Three-Dimensional Polarimetric InISAR Imaging of Non-Cooperative Targets,"_ in IEEE Transactions on Computational Imaging, 2023, pp. 1-13, DOI: [10.1109/TCI.2023.3248942](https://ieeexplore.ieee.org/document/10052768/)
 
 ## 2022
 
