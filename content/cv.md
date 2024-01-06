@@ -1,7 +1,8 @@
 # **Francesco Mancuso**
 
 #### Currently
-- **Visiting PhD Student** @ [**School of Electrical and Electronic Engineering**](https://set.adelaide.edu.au/electrical-electronic-engineering/), University of Adelaide, Adelaide SA 5000, Australia
+- **Research Collaborator** @ [**RaSS National Lab**](https://labrass.cnit.it)
+- **Visiting PhD Student** @ [**Adelaide Radar Research Centre**](https://www.adelaide.edu.au/radar/), University of Adelaide, Adelaide SA 5000, Australia
 - **PhD Student** @ [**Department of Information Engineering (DII)**](https://www.dii.unipi.it), University of Pisa, Pisa, Italy
 
 #### Research Interests
@@ -9,14 +10,19 @@
 
 ## Work Experience
 
-> ### RaSS National Lab
+> ### University of Adelaide
+> _Adelaide, SA, Australia_
+> 
+> **Digital Signal Processing Tutor**
+> 
+> _Jul 2023 to Dec 2023_
+
+> ### Radar and Surveillance Systems National Lab
 > _Pisa, Italy_
 > 
-> **Senior Research Collaborator**
+> **Research Collaborator**
 > 
-> _Sep 2021 to Nov 2022_
-> - ATR by means of Polarimetric ISAR Images and multi-view 3D InISAR
-> - 3D Radar Imaging for Non-Cooperative Target Recognition
+> _Sep 2021 to Present_
 
 > ### [Move Solutions](https://www.movesolutions.it)
 > _Lucca, Italy_
@@ -24,13 +30,6 @@
 > **R&D Engineer**
 > 
 > _Jan 2019 to Jan 2020_
-> 
-> - Development of algorithms of statistical analysis, anomaly detection and modal analysis for Structure Health Monitoring
-> - EMC testing and design of wireless devices for Structure Health Monitoring
-> - Selection and testing of new components for electronic prototyping
-> - Planning of radio resources over LoRa for wireless sensor network and autonomous robots control channel
-> - Interfacing with clients for project planning and technical requirements definition
-> - Drawing up technical documentation
 
 > ### IIS ”L. da Vinci - Fascetti” 
 > _Pisa, Italy_
@@ -38,14 +37,12 @@
 > **High School Teacher - Physics Lab**
 > 
 > _Oct 2018 to Jan 2019_
->
-> - Laboratory lesson planning and students evaluation
 
 ## Skills
 
-Languages: `MATLAB` `Python` `LaTeX` `C/C++` `JavaScript`
+Languages: `MATLAB` `Python` `LaTeX` `C/C++`
 
-Developer Tools: `Git` `Jupyter Notebook` `Visual Studio Code` `GNU Radio`
+Developer Tools: `Jupyter Notebook` `Visual Studio Code` `GNU Radio`
 
 Libraries: `Scikit-learn` `Matplotlib` `Numpy` `SciPy` `Xarray`
 
@@ -94,6 +91,9 @@ Operating Systems: `Windows` `Unix` `MacOS`
 
 ## Awards and Grants
 
+### Student Travel Grant, IEEE LCN 2023, issued by IEEE Computer Society TCCC
+_Oct 2023_
+
 ### PhD Scholarship issued by the University of Pisa (DII)
 _Oct 2021_
 
@@ -103,10 +103,5 @@ _Apr 2020 - Sep 2020_
     * Awards Received:
         1. **Weekly Winning Idea** - _Apr 2020_
         2. **Upscaling Ideas for RACE Platform - Fourth Prize Winner** - _Sep 2020_
-
-## Certificates
-- English for Research Publication and Presentation Purposes (C1+)
-- Cambridge ESOL – First Certificate in English (B2)
-- Completion certificate – Cisco Networking Academy, IT Essential: PC Hardware and Software
 
 ---
