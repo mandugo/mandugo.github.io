@@ -172,7 +172,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "Francesco Mancuso"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "PhD Student @ University of Pisa"
+      subtitle = "Hello everyone, my name is Francesco! I am a PhD student at the University of Pisa, welcome to my landing page :)"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
