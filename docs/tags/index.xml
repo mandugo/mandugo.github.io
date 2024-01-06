@@ -4,21 +4,5 @@
         <link>https://mandugo.github.io/tags/</link>
         <description>Tags - Tag - Francesco Mancuso</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>francesco.mancuso@ieee.org (Francesco Mancuso)</managingEditor>
-            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Sat, 01 Oct 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://mandugo.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>SAR</title>
-    <link>https://mandugo.github.io/tags/sar/</link>
-    <pubDate>Sat, 01 Oct 2022 00:00:00 &#43;0000</pubDate>
-    <author>Francesco Mancuso</author>
-    <guid>https://mandugo.github.io/tags/sar/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Sentinel1</title>
-    <link>https://mandugo.github.io/tags/sentinel1/</link>
-    <pubDate>Sat, 01 Oct 2022 00:00:00 &#43;0000</pubDate>
-    <author>Francesco Mancuso</author>
-    <guid>https://mandugo.github.io/tags/sentinel1/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><atom:link href="https://mandugo.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
