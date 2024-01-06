@@ -1,8 +1,8 @@
 # List of publications
 
 ## 2023
-
-- G. Meucci, **F. Mancuso**, E. Giusti, A. Kumar, S. Ghio, M. Martorella, _“Point Cloud Transformer (PCT) for 3D-InISAR Automatic Target Recognition”_, 2023 IEEE Radar Conference (RadarConf'23), 2023
+- G. Meucci, B. Karahoda, A. H. Oveis, **F. Mancuso**, E. Jajaga, and A. Cantelli-Forti,_"Naval Cybersecurity in the Age of AI: deceptive ISAR Images Generation with GANs"_, 2023 IEEE 48th Conference on Local Computer Networks (LCN), Daytona Beach, FL, USA, 2023, pp. 1-6, DOI: [10.1109/LCN58197.2023.10223338](https://ieeexplore.ieee.org/document/10223338)
+- G. Meucci, **F. Mancuso**, E. Giusti, A. Kumar, S. Ghio, M. Martorella, _“Point Cloud Transformer (PCT) for 3D-InISAR Automatic Target Recognition”_, 2023 IEEE Radar Conference (RadarConf23), San Antonio, TX, USA, 2023, pp. 1-6, DOI: [10.1109/RadarConf2351548.2023.10149787](https://ieeexplore.ieee.org/document/10149787).
 - A. Kumar, E. Giusti, **F. Mancuso**, S. Ghio, A. Lupidi and M. Martorella, _"Three-Dimensional Polarimetric InISAR Imaging of Non-Cooperative Targets,"_ in IEEE Transactions on Computational Imaging, 2023, pp. 1-13, DOI: [10.1109/TCI.2023.3248942](https://ieeexplore.ieee.org/document/10052768/)
 
 ## 2022
