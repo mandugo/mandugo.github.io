@@ -1,16 +1,16 @@
 # **Francesco Mancuso**
 
 #### Currently
-- **Research Collaborator** @ [**RaSS National Lab**](https://labrass.cnit.it)
+- **Research Collaborator** @ [**RaSS National Lab**](https://labrass.cnit.it), Pisa, Italy
 - **Visiting PhD Student** @ [**Adelaide Radar Research Centre**](https://www.adelaide.edu.au/radar/), University of Adelaide, Adelaide SA 5000, Australia
 - **PhD Student** @ [**Department of Information Engineering (DII)**](https://www.dii.unipi.it), University of Pisa, Pisa, Italy
 
 #### Research Interests
-`Radar Systems` `Radar Imaging` `Signal Processing`
+`Radar Imaging` `Radar Systems` `Signal Processing`
 
 ## Work Experience
 
-> ### University of Adelaide
+> ### School of Electrical and Mechanical Engineering, University of Adelaide
 > _Adelaide, SA, Australia_
 > 
 > **Digital Signal Processing Tutor**
@@ -50,6 +50,13 @@ Operating Systems: `Windows` `Unix` `MacOS`
 
 ## Education
 
+> ### Visiting PhD Student
+> _2023 - 2024_
+>
+> **[Adelaide Radar Research Centre](https://www.adelaide.edu.au/radar/), University of Adelaide**
+> 
+> _Adelaide, SA, Australia_
+
 > ### Qualification to the Profession
 > _2022_
 >
@@ -58,7 +65,7 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > ### PhD in Information Engineering
 > _2021 - Present_
 >
-> **Department of Information Engineering (DII) - University of Pisa**
+> **Department of Information Engineering (DII), University of Pisa**
 > 
 > _Pisa, Italy_
 
@@ -68,9 +75,6 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > **University of Pisa**
 > 
 > _Pisa, Italy_
-> - Final mark: 110/110 cum laude
-> - Thesis: [_Development and validation of Polarimetric Three-Dimensional ISAR imaging techniques_](https://etd.adm.unipi.it/theses/available/etd-06182021-200732/)
-
 
 > ### BSc in Telecommunication Engineering
 > _2013 - 2017_
@@ -78,8 +82,6 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > **University of Pisa**
 > 
 > _Pisa, Italy_
-> - Final mark: 108/110
-> - Thesis: _IoT-based botnet and DNS DDoS Attacks: Dyn's case analysis_
 
 > ### High School Diploma in Industrial Engineering: Electronic and Telecommunication
 > _2008 - 2013_
@@ -87,21 +89,20 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > **ITI "E. Scalfaro"**
 > 
 > _Catanzaro, Italy_
-> - Final mark: 100/100
 
 ## Awards and Grants
 
-### Student Travel Grant, IEEE LCN 2023, issued by IEEE Computer Society TCCC
-_Oct 2023_
+> ### Student Travel Grant, IEEE LCN 2023, issued by IEEE Computer Society TCCC
+> _Oct 2023_
 
-### PhD Scholarship issued by the University of Pisa (DII)
-_Oct 2021_
+> ### PhD Scholarship issued by the University of Pisa (DII)
+> _Oct 2021_
 
-### ESA COVID-19 Custom Script Contest
-_Apr 2020 - Sep 2020_
-- [**Water Quality Monitoring for Main European Rivers**](https://www.sentinel-hub.com/develop/community/contest-covid/)
-    * Awards Received:
-        1. **Weekly Winning Idea** - _Apr 2020_
-        2. **Upscaling Ideas for RACE Platform - Fourth Prize Winner** - _Sep 2020_
+> ### ESA COVID-19 Custom Script Contest
+> _Apr 2020 - Sep 2020_
+> - [**Water Quality Monitoring for Main European Rivers**](https://www.sentinel-hub.com/develop/community/contest-covid/)
+>     * Awards Received:
+>         1. **Weekly Winning Idea** - _Apr 2020_
+>         2. **Upscaling Ideas for RACE Platform - Fourth Prize Winner** - _Sep 2020_
 
 ---
