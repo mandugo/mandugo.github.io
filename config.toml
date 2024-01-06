@@ -40,17 +40,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Menu config
 [menu]
- [[menu.main]]
-  #  weight = 1
-  #  identifier = "posts"
-  #  # you can add extra information before the name (HTML format is supported), such as icons
-  #  pre = ""
-  #  # you can add extra information after the name (HTML format is supported), such as icons
-  #  post = ""
-  #  name = "Posts"
-  #  url = "/posts/"
-  #  # title will be shown when you hover on this menu link
-  #  title = "Posts"
+#  [[menu.main]]
+#    weight = 1
+#    identifier = "posts"
+#    # you can add extra information before the name (HTML format is supported), such as icons
+#    pre = ""
+#    # you can add extra information after the name (HTML format is supported), such as icons
+#    post = ""
+#    name = "Posts"
+#    url = "/posts/"
+#    # title will be shown when you hover on this menu link
+#    title = "Posts"
   [[menu.main]]
     weight = 1
     identifier = "CV"
@@ -182,7 +182,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # Home page posts
     [params.home.posts]
-      enable = true # VISUALIZZA POST IN HOME
+      enable = false # VISUALIZZA POST IN HOME
       # special amount of posts in each home posts page
       paginate = 6
       # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
