@@ -10,14 +10,14 @@
 
 ## Work Experience
 
-> ### School of Electrical and Mechanical Engineering, University of Adelaide
+> ### [School of Electrical and Mechanical Engineering, University of Adelaide](https://set.adelaide.edu.au/electrical-mechanical-engineering/)
 > _Adelaide, SA, Australia_
 > 
 > **Digital Signal Processing Tutor**
 > 
 > _Jul 2023 to Dec 2023_
 
-> ### Radar and Surveillance Systems National Lab
+> ### [Radar and Surveillance Systems National Lab](https://labrass.cnit.it)
 > _Pisa, Italy_
 > 
 > **Research Collaborator**
@@ -31,7 +31,7 @@
 > 
 > _Jan 2019 to Jan 2020_
 
-> ### IIS ”L. da Vinci - Fascetti” 
+> ### [IIS ”L. da Vinci - Fascetti”](https://www.davincifascetti.it) 
 > _Pisa, Italy_
 > 
 > **High School Teacher - Physics Lab**
@@ -57,7 +57,7 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > 
 > _Adelaide, SA, Australia_
 
-> ### Qualification to the Profession
+> ### [Qualification to the Profession](https://www.ordineingegneripisa.it/istituzione/albo/?m=45j39350n5147e411)
 > _2022_
 >
 > Information Engineering, Sector A
@@ -65,7 +65,7 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > ### PhD in Information Engineering
 > _2021 - Present_
 >
-> **Department of Information Engineering (DII), University of Pisa**
+> **[Department of Information Engineering (DII)](https://www.dii.unipi.it), University of Pisa**
 > 
 > _Pisa, Italy_
 
@@ -86,7 +86,7 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > ### High School Diploma in Industrial Engineering: Electronic and Telecommunication
 > _2008 - 2013_
 > 
-> **ITI "E. Scalfaro"**
+> [**ITI "E. Scalfaro"**](https://www.itiscalfaro-cz.it)
 > 
 > _Catanzaro, Italy_
 
