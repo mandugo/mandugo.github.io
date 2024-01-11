@@ -10,7 +10,7 @@
 
 ## Work Experience
 
-> ### [School of Electrical and Mechanical Engineering, University of Adelaide](https://set.adelaide.edu.au/electrical-mechanical-engineering/)
+> ### [School of Electrical and Mechanical Engineering](https://set.adelaide.edu.au/electrical-mechanical-engineering/), University of Adelaide
 > _Adelaide, SA, Australia_
 > 
 > **Digital Signal Processing Tutor**
