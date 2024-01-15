@@ -1,6 +1,6 @@
 ---
 title: "Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple®"
-date: 2024-01-12
+date: 2024-01-15
 draft: false
 tags: ["Radar", "FMCW", "Education"]
 toc: true
@@ -101,19 +101,19 @@ rangeVec = (0:2*maxRange/nfft:maxRange - maxRange/nfft)*100;       % Scaling in 
 #### Understanding the computation of the maximum range
 The datasheet for the SiRad Simple® provides the equation for the FMCW ramp time as
 
-$$T_{\text{ramp}} = \frac{t_{\text{smp}} \cdot (N_{\text{S}}+ 37.5)}{36 \text{MHz}}\, ,$$
+$$T_{\text{ramp}} = \frac{t_{\text{smp}} \cdot (N_{\text{S}}+ 37.5)}{36 \text{MHz}}$$
 
 where $N_{\text{S}}$ is the number of samples and $t_{\text{smp}}$ denotes the time in clock cycles, and you can reference the datasheet for the specific values. The FMCW equation **[1]**
 
-$$\frac{f_b}{\tau} = \frac{B}{T_{\text{ramp}}}\, ,$$
+$$\frac{f_b}{\tau} = \frac{B}{T_{\text{ramp}}}$$
 
 involves $f_b$ as the beat frequency, $\tau$ as the time delay for signal transit, and $B$ as the bandwidth. These parameters are useful to calculate the system's maximum range. Taking into account that
 
-$$f^{\text{max}}_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}\, ,$$
+$$f^{\text{max}}_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}$$
 
 where $f_s$ is the sampling frequency of the system, (i.e., the maximum beat frequency is given by half of the sampling frequency) we can substitute the first and third equations into the second to write the maximum range achievable as
 
-$$R_{\text{max}} = \frac{f^{\text{max}}_{b}\cdot T_{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B} \, .$$
+$$R_{\text{max}} = \frac{f^{\text{max}}_{b}\cdot T_{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B}.$$
 
 ### Command Transmission and Response Validation
 This block sends a ```!N```, which is the command to trigger the acquisition, to the radar board via the serial port. It then enters a loop, continuously reading lines from the serial port until it receives a response that starts with ```!M``` (i.e., the identifier for the raw data), indicating a message containing useful data.
@@ -165,7 +165,7 @@ end
 
 The code for plotting was initially designed for a MATLAB live script aimed at real-time data acquisition from the radar. This required setting up plot objects at the beginning, outside of a loop. The loop itself was then used for data acquisition and actual plotting of the radar data.
 
-| ![Image 1](rangeProfile.png) |
+| ![Image 1](/siliconRadarTutorial/rangeProfile.png) |
 |:--:|
 | **Figure 1:** Acquired range profile. No targets in the acquisition. |
 

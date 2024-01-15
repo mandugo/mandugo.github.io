@@ -4,10 +4,10 @@
         <link>https://mandugo.github.io/tags/education/</link>
         <description>Education - Tag - Francesco Mancuso</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>francesco.mancuso@ieee.org (Francesco Mancuso)</managingEditor>
-            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Fri, 12 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://mandugo.github.io/tags/education/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://mandugo.github.io/tags/education/" rel="self" type="application/rss+xml" /><item>
     <title>Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple®</title>
     <link>https://mandugo.github.io/posts/siliconradarcode/</link>
-    <pubDate>Fri, 12 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>Francesco Mancuso</author>
     <guid>https://mandugo.github.io/posts/siliconradarcode/</guid>
     <description><![CDATA[Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple® The EVALKIT SiRad Simple® is an evaluation board from Silicon Radar (which has now been acquired by Indie Semiconductor actually) designed to use and test one of their FMCW Radar-on-Chip sensors. The evaluation kit communicates via UART and features a ARM Cortex-M4 microcontroller.

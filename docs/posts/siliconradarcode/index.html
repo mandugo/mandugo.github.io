@@ -9,8 +9,8 @@
 Though this evaluation board is no longer on the market, there&rsquo;s still good reason to talk about it." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mandugo.github.io/posts/siliconradarcode/" /><meta property="og:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-01-12T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-01-15T16:16:26+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
+<meta property="article:published_time" content="2024-01-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-01-15T16:21:28+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png"/>
@@ -32,8 +32,8 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/"
-        },"genre": "posts","keywords": "Radar, FMCW, Education","wordcount":  1828 ,
-        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-12T00:00:00+00:00","dateModified": "2024-01-15T16:16:26+10:30","publisher": {
+        },"genre": "posts","keywords": "Radar, FMCW, Education","wordcount":  1823 ,
+        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-15T00:00:00+00:00","dateModified": "2024-01-15T16:21:28+10:30","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -74,7 +74,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple®</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Francesco Mancuso</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-12">2024-01-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1828 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-15">2024-01-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1823 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;9 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -175,13 +175,13 @@ The variable called <code>calFactor</code> is basically a fixed overhead on the 
 </span></span><span style="display:flex;"><span>rangeVec = (<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>maxRange<span style="color:#f92672">/</span>nfft:maxRange <span style="color:#f92672">-</span> maxRange<span style="color:#f92672">/</span>nfft)<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>;       <span style="color:#75715e">% Scaling in cm</span>
 </span></span></code></pre></div><h4 id="understanding-the-computation-of-the-maximum-range">Understanding the computation of the maximum range</h4>
 <p>The datasheet for the SiRad Simple® provides the equation for the FMCW ramp time as</p>
-<p>$$T_{\text{ramp}} = \frac{t_{\text{smp}} \cdot (N_{\text{S}}+ 37.5)}{36 \text{MHz}}, ,$$</p>
+<p>$$T_{\text{ramp}} = \frac{t_{\text{smp}} \cdot (N_{\text{S}}+ 37.5)}{36 \text{MHz}}$$</p>
 <p>where $N_{\text{S}}$ is the number of samples and $t_{\text{smp}}$ denotes the time in clock cycles, and you can reference the datasheet for the specific values. The FMCW equation <strong>[1]</strong></p>
-<p>$$\frac{f_b}{\tau} = \frac{B}{T_{\text{ramp}}}, ,$$</p>
+<p>$$\frac{f_b}{\tau} = \frac{B}{T_{\text{ramp}}}$$</p>
 <p>involves $f_b$ as the beat frequency, $\tau$ as the time delay for signal transit, and $B$ as the bandwidth. These parameters are useful to calculate the system&rsquo;s maximum range. Taking into account that</p>
-<p>$$f^{\text{max}}<em>{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t</em>{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}, ,$$</p>
+<p>$$f^{\text{max}}<em>{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t</em>{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}$$</p>
 <p>where $f_s$ is the sampling frequency of the system, (i.e., the maximum beat frequency is given by half of the sampling frequency) we can substitute the first and third equations into the second to write the maximum range achievable as</p>
-<p>$$R_{\text{max}} = \frac{f^{\text{max}}<em>{b}\cdot T</em>{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B} , .$$</p>
+<p>$$R_{\text{max}} = \frac{f^{\text{max}}<em>{b}\cdot T</em>{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B}.$$</p>
 <h3 id="command-transmission-and-response-validation">Command Transmission and Response Validation</h3>
 <p>This block sends a <code>!N</code>, which is the command to trigger the acquisition, to the radar board via the serial port. It then enters a loop, continuously reading lines from the serial port until it receives a response that starts with <code>!M</code> (i.e., the identifier for the raw data), indicating a message containing useful data.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-matlab" data-lang="matlab"><span style="display:flex;"><span>writeline(com_port, &#34;!N&#34;);
@@ -225,10 +225,10 @@ The variable called <code>calFactor</code> is basically a fixed overhead on the 
 <th style="text-align:center"><img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="rangeProfile.png"
-        data-srcset="rangeProfile.png, rangeProfile.png 1.5x, rangeProfile.png 2x"
+        data-src="/siliconRadarTutorial/rangeProfile.png"
+        data-srcset="/siliconRadarTutorial/rangeProfile.png, /siliconRadarTutorial/rangeProfile.png 1.5x, /siliconRadarTutorial/rangeProfile.png 2x"
         data-sizes="auto"
-        alt="rangeProfile.png"
+        alt="/siliconRadarTutorial/rangeProfile.png"
         title="Image 1" /></th>
 </tr>
 </thead>
@@ -251,8 +251,8 @@ The variable called <code>calFactor</code> is basically a fixed overhead on the 
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/0214aeba34aabfc590346af5b1055c269a930e17" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) 0214aeba34aabfc590346af5b1055c269a930e17: new post draft">
-                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>0214aeb</a></span>
+                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/d34b5b985829913a1f1f12f1c78d3201cc3beed8" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) d34b5b985829913a1f1f12f1c78d3201cc3beed8: minor fix">
+                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>d34b5b9</a></span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
