@@ -10,7 +10,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mandugo.github.io/posts/siliconradarcode/" /><meta property="og:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-01-15T16:21:28+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
+<meta property="article:modified_time" content="2024-01-15T16:27:32+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png"/>
@@ -32,8 +32,8 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/"
-        },"genre": "posts","keywords": "Radar, FMCW, Education","wordcount":  1823 ,
-        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-15T00:00:00+00:00","dateModified": "2024-01-15T16:21:28+10:30","publisher": {
+        },"genre": "posts","keywords": "Radar, FMCW, Education","wordcount":  1825 ,
+        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-15T00:00:00+00:00","dateModified": "2024-01-15T16:27:32+10:30","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -74,7 +74,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple®</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Francesco Mancuso</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-15">2024-01-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1823 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-15">2024-01-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1825 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;9 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -113,8 +113,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
 </span></span><span style="display:flex;"><span>baudRate = <span style="color:#ae81ff">1000000</span>; <span style="color:#75715e">% 1e6 for clarity</span>
 </span></span></code></pre></div><p>Next, select the serial port where the board is connected from the obtained list and create a serial port object with a specified baud rate for communication speed. The code configures essential parameters for the serial connection, including the number of data bits per character frame, parity checking type, the number of stop bits, and a timeout setting for read operations. Finally, it defines the end-of-line character sequence for the data transmission, ensuring proper data handling and communication with the connected device.</p>
 <blockquote>
-<p>[!NOTE]
-The termination command is given by the board&rsquo;s protocol, which is linked in the following section.</p>
+<p><strong>Note:</strong> The termination command is given by the board&rsquo;s protocol, which is linked in the following section.</p>
 </blockquote>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-matlab" data-lang="matlab"><span style="display:flex;"><span><span style="color:#75715e">% Choose the serial port (e.g., second port in the list)</span>
 </span></span><span style="display:flex;"><span>serialPort = sPort(<span style="color:#ae81ff">2</span>);
@@ -130,8 +129,7 @@ The termination command is given by the board&rsquo;s protocol, which is linked 
 </span></span><span style="display:flex;"><span>set(com_port, &#34;Timeout&#34;, <span style="color:#ae81ff">1</span>);
 </span></span><span style="display:flex;"><span>configureTerminator(com_port,<span style="color:#e6db74">&#39;CR/LF&#39;</span>);
 </span></span></code></pre></div><blockquote>
-<p>[!NOTE]
-<strong>Linux users:</strong> If you&rsquo;re on Ubuntu and encounter issues with serial port permissions, you may need to modify the access rights. To do so, enter the following command in the Terminal: <code>sudo chmod 666 /dev/tty*</code>. This will grant read and write permissions to the serial devices. It would be wiser to modify the permissions only for the specific serial port in use.</p>
+<p><strong>Note for Linux users:</strong> If you&rsquo;re on Ubuntu and encounter issues with serial port permissions, you may need to modify the access rights. To do so, enter the following command in the Terminal: <code>sudo chmod 666 /dev/tty*</code>. This will grant read and write permissions to the serial devices. It would be wiser to modify the permissions only for the specific serial port in use.</p>
 </blockquote>
 <h3 id="sending-configuration-commands">Sending Configuration Commands</h3>
 <p>Now, it&rsquo;s time to configure the radar. This involves sending specific commands to the radar board. These commands set up the radar&rsquo;s operating parameters, preparing it for data acquisition. For an in-depth understanding of the commands structure, please refer to the evaluation board&rsquo;s <a href="https://siliconradar.com/datasheets/Protocol_Description_Easy_Simple_V2.4.pdf" target="_blank" rel="noopener noreffer ">protocol description</a> document.</p>
@@ -154,8 +152,7 @@ The termination command is given by the board&rsquo;s protocol, which is linked 
 <li><code>!B20000008</code> : this command starts with <code>!B</code>, thus it&rsquo;s a baseband command. This command enables DC cancellation, turns off the CFAR algorithm (as raw data processing is preferred and the algorithm is unnecessary), sets the number of ramps to 1, specifies the sample count at 64, and chooses the highest ADC sampling frequency. The binary representation of the command is <code>0010 0000 0000 0000 0000 0000 0000 1000</code>.</li>
 </ul>
 <blockquote>
-<p>[!IMPORTANT]
-If you find it complex to manually construct these commands, helpful Python functions are available <a href="https://github.com/M-M-Lab/Radar-Systems-Lab/blob/main/pythonCode/configurationCommands.py" target="_blank" rel="noopener noreffer ">at this link</a> to aid in the process. Not everything has been fully implemented, therefore some parameters are hardcoded.</p>
+<p><strong>Helpful note:</strong> If you find it complex to manually construct these commands, helpful Python functions are available <a href="https://github.com/M-M-Lab/Radar-Systems-Lab/blob/main/pythonCode/configurationCommands.py" target="_blank" rel="noopener noreffer ">at this link</a> to aid in the process. Not everything has been fully implemented, therefore some parameters are hardcoded.</p>
 </blockquote>
 <h3 id="setting-up-operational-values">Setting Up Operational Values</h3>
 <p>In this section, define the key numerical parameters that dictate the radar&rsquo;s performance. This includes the number of samples, bandwidth, speed of light, and a calibration factor. These values are vital for accurate radar operation and data interpretation.</p>
@@ -164,8 +161,7 @@ If you find it complex to manually construct these commands, helpful Python func
 </span></span><span style="display:flex;"><span>c = <span style="color:#ae81ff">3e8</span>;            <span style="color:#75715e">% Speed of light in m/s</span>
 </span></span><span style="display:flex;"><span>calFactor = <span style="color:#ae81ff">37.5</span>;
 </span></span></code></pre></div><blockquote>
-<p>[!WARNING]
-The variable called <code>calFactor</code> is basically a fixed overhead on the data. The specific value utilized in this context was determined through empirical measurement and does not align with the datasheet&rsquo;s stated figure. Employing the datasheet&rsquo;s number resulted in a noticeable range offset in our measurements, but <strong>we could&rsquo;ve got something wrong</strong>.</p>
+<p><strong>Note:</strong> The variable called <code>calFactor</code> is basically a fixed overhead on the data. The specific value utilized in this context was determined through empirical measurement and does not align with the datasheet&rsquo;s stated figure. Employing the datasheet&rsquo;s number resulted in a noticeable range offset in our measurements, but <strong>we could&rsquo;ve got something wrong</strong>.</p>
 </blockquote>
 <h3 id="initializing-plotting-vectors">Initializing Plotting Vectors</h3>
 <p>Finally, prepare for data visualization by initializing vectors that will be used in plotting. This step involves setting up variables for zero padding, calculating the maximum range, and creating a range vector. These preparations are essential for an accurate representation of the radar data.</p>
@@ -251,8 +247,8 @@ The variable called <code>calFactor</code> is basically a fixed overhead on the 
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/d34b5b985829913a1f1f12f1c78d3201cc3beed8" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) d34b5b985829913a1f1f12f1c78d3201cc3beed8: minor fix">
-                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>d34b5b9</a></span>
+                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/6a3d325a4bf5a426989c6c11f9ed59820c581eec" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) 6a3d325a4bf5a426989c6c11f9ed59820c581eec: minor fixes">
+                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>6a3d325</a></span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>

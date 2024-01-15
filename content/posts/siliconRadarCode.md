@@ -29,8 +29,7 @@ sPort = serialportlist;
 baudRate = 1000000; % 1e6 for clarity
 ```
 Next, select the serial port where the board is connected from the obtained list and create a serial port object with a specified baud rate for communication speed. The code configures essential parameters for the serial connection, including the number of data bits per character frame, parity checking type, the number of stop bits, and a timeout setting for read operations. Finally, it defines the end-of-line character sequence for the data transmission, ensuring proper data handling and communication with the connected device.
-> [!NOTE]
-> The termination command is given by the board's protocol, which is linked in the following section.
+> **Note:** The termination command is given by the board's protocol, which is linked in the following section.
 
 ```matlab
 % Choose the serial port (e.g., second port in the list)
@@ -47,8 +46,7 @@ set(com_port, "StopBits", 1);
 set(com_port, "Timeout", 1);
 configureTerminator(com_port,'CR/LF');
 ```
-> [!NOTE]
-> **Linux users:** If you're on Ubuntu and encounter issues with serial port permissions, you may need to modify the access rights. To do so, enter the following command in the Terminal: ```sudo chmod 666 /dev/tty*```. This will grant read and write permissions to the serial devices. It would be wiser to modify the permissions only for the specific serial port in use.
+> **Note for Linux users:** If you're on Ubuntu and encounter issues with serial port permissions, you may need to modify the access rights. To do so, enter the following command in the Terminal: ```sudo chmod 666 /dev/tty*```. This will grant read and write permissions to the serial devices. It would be wiser to modify the permissions only for the specific serial port in use.
 
 ### Sending Configuration Commands
 Now, it's time to configure the radar. This involves sending specific commands to the radar board. These commands set up the radar's operating parameters, preparing it for data acquisition. For an in-depth understanding of the commands structure, please refer to the evaluation board's [protocol description](https://siliconradar.com/datasheets/Protocol_Description_Easy_Simple_V2.4.pdf) document.
@@ -73,8 +71,7 @@ These commands are followed by a series of bits. Each bit, or group of bits, set
 - ```!K``` : this is a short command to set the bandwidth of the radar to the maximum value.
 - ```!B20000008``` : this command starts with ```!B```, thus it's a baseband command. This command enables DC cancellation, turns off the CFAR algorithm (as raw data processing is preferred and the algorithm is unnecessary), sets the number of ramps to 1, specifies the sample count at 64, and chooses the highest ADC sampling frequency. The binary representation of the command is ```0010 0000 0000 0000 0000 0000 0000 1000```.
 
-> [!IMPORTANT]
-> If you find it complex to manually construct these commands, helpful Python functions are available [at this link](https://github.com/M-M-Lab/Radar-Systems-Lab/blob/main/pythonCode/configurationCommands.py) to aid in the process. Not everything has been fully implemented, therefore some parameters are hardcoded.
+> **Helpful note:** If you find it complex to manually construct these commands, helpful Python functions are available [at this link](https://github.com/M-M-Lab/Radar-Systems-Lab/blob/main/pythonCode/configurationCommands.py) to aid in the process. Not everything has been fully implemented, therefore some parameters are hardcoded.
 
 ### Setting Up Operational Values
 In this section, define the key numerical parameters that dictate the radar's performance. This includes the number of samples, bandwidth, speed of light, and a calibration factor. These values are vital for accurate radar operation and data interpretation.
@@ -85,8 +82,7 @@ BW = 6.1e9;         % Bandwidth in Hz
 c = 3e8;            % Speed of light in m/s
 calFactor = 37.5;
 ```
-> [!WARNING]
-> The variable called ```calFactor``` is basically a fixed overhead on the data. The specific value utilized in this context was determined through empirical measurement and does not align with the datasheet's stated figure. Employing the datasheet's number resulted in a noticeable range offset in our measurements, but **we could've got something wrong**.
+> **Note:** The variable called ```calFactor``` is basically a fixed overhead on the data. The specific value utilized in this context was determined through empirical measurement and does not align with the datasheet's stated figure. Employing the datasheet's number resulted in a noticeable range offset in our measurements, but **we could've got something wrong**.
 
 ### Initializing Plotting Vectors
 Finally, prepare for data visualization by initializing vectors that will be used in plotting. This step involves setting up variables for zero padding, calculating the maximum range, and creating a range vector. These preparations are essential for an accurate representation of the radar data.
