@@ -52,7 +52,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
    # title will be shown when you hover on this menu link
    title = "Posts"
   [[menu.main]]
-    weight = 1
+    weight = 2
     identifier = "CV"
     pre = ""
     post = ""
@@ -60,7 +60,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/cv"
     title = "Curriculum Vitae"
   [[menu.main]]
-    weight = 2
+    weight = 3
     identifier = "publications"
     pre = ""
     post = ""
