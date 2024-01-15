@@ -10,7 +10,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mandugo.github.io/posts/siliconradarcode/" /><meta property="og:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-01-15T16:38:48+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
+<meta property="article:modified_time" content="2024-01-15T16:41:34+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png"/>
@@ -33,7 +33,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
             "@type": "WebPage",
             "@id": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/"
         },"genre": "posts","keywords": "Radar, FMCW, Education","wordcount":  1824 ,
-        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-15T00:00:00+00:00","dateModified": "2024-01-15T16:38:48+10:30","publisher": {
+        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-15T00:00:00+00:00","dateModified": "2024-01-15T16:41:34+10:30","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -177,7 +177,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
 <p>involves $f_b$ as the beat frequency, $\tau$ as the time delay for signal transit, and $B$ as the bandwidth. These parameters are useful to calculate the system&rsquo;s maximum range. Taking into account that</p>
 <p>$$f^{\text{max}}_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R}{c}$$</p>
 <p>where $f_s$ is the sampling frequency of the system, (i.e., the maximum beat frequency is given by half of the sampling frequency) we can substitute the first and third equations into the second to write the maximum range achievable as</p>
-<p>$$R_{\text{max}} = \frac{f^{\text{max}}<em>{b}\cdot T</em>{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B}.$$</p>
+<p>$$R_{\text{max}} = \frac{f^{\text{max}}_{b}\cdot T_{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B}.$$</p>
 <h3 id="command-transmission-and-response-validation">Command Transmission and Response Validation</h3>
 <p>This block sends a <code>!N</code>, which is the command to trigger the acquisition, to the radar board via the serial port. It then enters a loop, continuously reading lines from the serial port until it receives a response that starts with <code>!M</code> (i.e., the identifier for the raw data), indicating a message containing useful data.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-matlab" data-lang="matlab"><span style="display:flex;"><span>writeline(com_port, &#34;!N&#34;);
@@ -247,8 +247,8 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/2971eae637ac02b739e390868c33d77104ee341e" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) 2971eae637ac02b739e390868c33d77104ee341e: trying to fix an equation .-.">
-                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>2971eae</a></span>
+                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/cfd266f91c0354fc213fc4090387d523fcd79923" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) cfd266f91c0354fc213fc4090387d523fcd79923: will it work?">
+                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>cfd266f</a></span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
