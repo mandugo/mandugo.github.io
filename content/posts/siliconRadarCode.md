@@ -105,9 +105,7 @@ $$\frac{f_b}{\tau} = \frac{B}{T_{\text{ramp}}}$$
 
 involves $f_b$ as the beat frequency, $\tau$ as the time delay for signal transit, and $B$ as the bandwidth. These parameters are useful to calculate the system's maximum range. Taking into account that
 
-$$
-f^{\text{max}}_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}
-$$
+$$f^{\text{max}}\_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t\_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R}{c}$$
 
 where $f_s$ is the sampling frequency of the system, (i.e., the maximum beat frequency is given by half of the sampling frequency) we can substitute the first and third equations into the second to write the maximum range achievable as
 

@@ -10,7 +10,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mandugo.github.io/posts/siliconradarcode/" /><meta property="og:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-01-15T16:33:31+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
+<meta property="article:modified_time" content="2024-01-15T16:38:48+10:30" /><meta property="og:site_name" content="Francesco Mancuso" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://mandugo.github.io/siliconRadarTutorial/rangeProfile.png"/>
@@ -32,8 +32,8 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/"
-        },"genre": "posts","keywords": "Radar, FMCW, Education","wordcount":  1826 ,
-        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-15T00:00:00+00:00","dateModified": "2024-01-15T16:33:31+10:30","publisher": {
+        },"genre": "posts","keywords": "Radar, FMCW, Education","wordcount":  1824 ,
+        "url": "https:\/\/mandugo.github.io\/posts\/siliconradarcode\/","datePublished": "2024-01-15T00:00:00+00:00","dateModified": "2024-01-15T16:38:48+10:30","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -74,7 +74,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple®</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Francesco Mancuso</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-15">2024-01-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1826 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-15">2024-01-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1824 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;9 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -175,9 +175,7 @@ Though this evaluation board is no longer on the market, there&rsquo;s still goo
 <p>where $N_{\text{S}}$ is the number of samples and $t_{\text{smp}}$ denotes the time in clock cycles, and you can reference the datasheet for the specific values. The FMCW equation <strong>[1]</strong></p>
 <p>$$\frac{f_b}{\tau} = \frac{B}{T_{\text{ramp}}}$$</p>
 <p>involves $f_b$ as the beat frequency, $\tau$ as the time delay for signal transit, and $B$ as the bandwidth. These parameters are useful to calculate the system&rsquo;s maximum range. Taking into account that</p>
-<p>$$
-f^{\text{max}}<em>{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t</em>{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}
-$$</p>
+<p>$$f^{\text{max}}_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R}{c}$$</p>
 <p>where $f_s$ is the sampling frequency of the system, (i.e., the maximum beat frequency is given by half of the sampling frequency) we can substitute the first and third equations into the second to write the maximum range achievable as</p>
 <p>$$R_{\text{max}} = \frac{f^{\text{max}}<em>{b}\cdot T</em>{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B}.$$</p>
 <h3 id="command-transmission-and-response-validation">Command Transmission and Response Validation</h3>
@@ -249,8 +247,8 @@ $$</p>
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/6196ebfb044a31757970d738ed36115580cc2b45" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) 6196ebfb044a31757970d738ed36115580cc2b45: notes fix">
-                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>6196ebf</a></span>
+                <span>Updated on 2024-01-15&nbsp;<a class="git-hash" href="https://github.com/mandugo/mandugo.github.io/commit/2971eae637ac02b739e390868c33d77104ee341e" target="_blank" title="commit by mandugo(frankirchhoff@gmail.com) 2971eae637ac02b739e390868c33d77104ee341e: trying to fix an equation .-.">
+                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>2971eae</a></span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
