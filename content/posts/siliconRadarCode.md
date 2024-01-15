@@ -71,7 +71,7 @@ These commands are followed by a series of bits. Each bit, or group of bits, set
 - ```!K``` : this is a short command to set the bandwidth of the radar to the maximum value.
 - ```!B20000008``` : this command starts with ```!B```, thus it's a baseband command. This command enables DC cancellation, turns off the CFAR algorithm (as raw data processing is preferred and the algorithm is unnecessary), sets the number of ramps to 1, specifies the sample count at 64, and chooses the highest ADC sampling frequency. The binary representation of the command is ```0010 0000 0000 0000 0000 0000 0000 1000```.
 
-> **Helpful note:** If you find it complex to manually construct these commands, helpful Python functions are available [at this link](https://github.com/M-M-Lab/Radar-Systems-Lab/blob/main/pythonCode/configurationCommands.py) to aid in the process. Not everything has been fully implemented, therefore some parameters are hardcoded.
+> **Note:** If you find it complex to manually construct these commands, helpful Python functions are available [at this link](https://github.com/M-M-Lab/Radar-Systems-Lab/blob/main/pythonCode/configurationCommands.py) to aid in the process. Not everything has been fully implemented, therefore some parameters are hardcoded.
 
 ### Setting Up Operational Values
 In this section, define the key numerical parameters that dictate the radar's performance. This includes the number of samples, bandwidth, speed of light, and a calibration factor. These values are vital for accurate radar operation and data interpretation.
@@ -105,7 +105,9 @@ $$\frac{f_b}{\tau} = \frac{B}{T_{\text{ramp}}}$$
 
 involves $f_b$ as the beat frequency, $\tau$ as the time delay for signal transit, and $B$ as the bandwidth. These parameters are useful to calculate the system's maximum range. Taking into account that
 
-$$f^{\text{max}}_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}$$
+$$
+f^{\text{max}}_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t_{\text{smp}}} \quad \text{and} \quad \tau = \frac{2R_{\text{}}}{c}
+$$
 
 where $f_s$ is the sampling frequency of the system, (i.e., the maximum beat frequency is given by half of the sampling frequency) we can substitute the first and third equations into the second to write the maximum range achievable as
 
