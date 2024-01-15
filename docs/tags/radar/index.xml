@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Francesco Mancuso</title>
-        <link>https://mandugo.github.io/</link>
-        <description>Francesco Mancuso</description>
+        <title>Radar - Tag - Francesco Mancuso</title>
+        <link>https://mandugo.github.io/tags/radar/</link>
+        <description>Radar - Tag - Francesco Mancuso</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>francesco.mancuso@ieee.org (Francesco Mancuso)</managingEditor>
-            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Fri, 12 Jan 2024 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="https://mandugo.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>francesco.mancuso@ieee.org (Francesco Mancuso)</webMaster><lastBuildDate>Fri, 12 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://mandugo.github.io/tags/radar/" rel="self" type="application/rss+xml" /><item>
     <title>Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple®</title>
     <link>https://mandugo.github.io/posts/siliconradarcode/</link>
     <pubDate>Fri, 12 Jan 2024 00:00:00 &#43;0000</pubDate>

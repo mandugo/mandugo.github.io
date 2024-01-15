@@ -1,7 +1,7 @@
 ---
 title: "Exploring Radar Basics: A Hands-On Guide to the EVALKIT SiRad Simple®"
 date: 2024-01-12
-draft: true
+draft: false
 tags: ["Radar", "FMCW", "Education"]
 toc: true
 images:
