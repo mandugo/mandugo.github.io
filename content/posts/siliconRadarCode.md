@@ -109,7 +109,7 @@ $$f^{\text{max}}\_{b} = \frac{f_s}{2} = \frac{36 \text{MHz}}{2t\_{\text{smp}}} \
 
 where $f_s$ is the sampling frequency of the system, (i.e., the maximum beat frequency is given by half of the sampling frequency) we can substitute the first and third equations into the second to write the maximum range achievable as
 
-$$R_{\text{max}} = \frac{f^{\text{max}}\_{b}\cdot T_{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B}.$$
+$$R_{\text{max}} = \frac{f^{\text{max}}\_{b}\cdot T\_{\text{ramp}} \cdot c}{2B} = \frac{(N_{\text{S}} + 37.5) \cdot c}{4B}.$$
 
 ### Command Transmission and Response Validation
 This block sends a ```!N```, which is the command to trigger the acquisition, to the radar board via the serial port. It then enters a loop, continuously reading lines from the serial port until it receives a response that starts with ```!M``` (i.e., the identifier for the raw data), indicating a message containing useful data.
