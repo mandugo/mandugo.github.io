@@ -2,7 +2,6 @@
 
 #### Currently
 - **Research Collaborator** @ [**RaSS National Lab**](https://labrass.cnit.it), Pisa, Italy
-- **Visiting PhD Student** @ [**Adelaide Radar Research Centre**](https://www.adelaide.edu.au/radar/), University of Adelaide, Adelaide SA 5000, Australia
 - **PhD Student** @ [**Department of Information Engineering (DII)**](https://www.dii.unipi.it), University of Pisa, Pisa, Italy
 
 #### Research Interests
