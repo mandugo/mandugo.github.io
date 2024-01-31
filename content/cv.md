@@ -2,6 +2,7 @@
 
 #### Currently
 - **Research Collaborator** @ [**RaSS National Lab**](https://labrass.cnit.it), Pisa, Italy
+- **Visiting PhD Student** @ [**Adelaide Radar Research Centre**](https://www.adelaide.edu.au/radar/), University of Adelaide, Adelaide SA 5000, Australia
 - **PhD Student** @ [**Department of Information Engineering (DII)**](https://www.dii.unipi.it), University of Pisa, Pisa, Italy
 
 #### Research Interests
@@ -103,4 +104,5 @@ Operating Systems: `Windows` `Unix` `MacOS`
 >     * Awards Received:
 >         1. **Weekly Winning Idea** - _Apr 2020_
 >         2. **Upscaling Ideas for RACE Platform - Fourth Prize Winner** - _Sep 2020_
+
 ---
