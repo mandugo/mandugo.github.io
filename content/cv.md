@@ -103,5 +103,4 @@ Operating Systems: `Windows` `Unix` `MacOS`
 >     * Awards Received:
 >         1. **Weekly Winning Idea** - _Apr 2020_
 >         2. **Upscaling Ideas for RACE Platform - Fourth Prize Winner** - _Sep 2020_
-
 ---
