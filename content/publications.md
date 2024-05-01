@@ -1,7 +1,7 @@
 # List of publications
 
 ## 2024
-- **F. Mancuso**, E. Giusti, B. Ng and M. Martorella, "Dual-Frequency Phase Unwrapping for 3D InISAR Imaging of Non-Cooperative Targets," in IEEE Transactions on Radar Systems, vol. 2, pp. 434-445, 2024, DOI: [10.1109/TRS.2024.3392073](https://ieeexplore.ieee.org/document/10506548)
+- **F. Mancuso**, E. Giusti, B. Ng and M. Martorella, _"Dual-Frequency Phase Unwrapping for 3D InISAR Imaging of Non-Cooperative Targets,"_ in IEEE Transactions on Radar Systems, vol. 2, pp. 434-445, 2024, DOI: [10.1109/TRS.2024.3392073](https://ieeexplore.ieee.org/document/10506548)
 
 ## 2023
 - G. Meucci, B. Karahoda, A. H. Oveis, **F. Mancuso**, E. Jajaga, and A. Cantelli-Forti,_"Naval Cybersecurity in the Age of AI: deceptive ISAR Images Generation with GANs"_, 2023 IEEE 48th Conference on Local Computer Networks (LCN), Daytona Beach, FL, USA, 2023, pp. 1-6, DOI: [10.1109/LCN58197.2023.10223338](https://ieeexplore.ieee.org/document/10223338)
