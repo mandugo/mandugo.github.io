@@ -193,7 +193,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.social]
     GitHub = "mandugo"
     Linkedin = "mancuso-f"
-    Twitter = "francesmanc"
+    # Twitter = "francesmanc"
     # Telegram = "marzucco"
     GoogleScholar = "UwVa-gsAAAAJ"
     Lastfm = "frankirchhoff"
