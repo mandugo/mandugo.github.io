@@ -1,8 +1,7 @@
 # **Francesco Mancuso**
 
 #### Currently
-- **Research Collaborator** @ [**RaSS National Lab**](https://labrass.cnit.it), Pisa, Italy 
-- **PhD Student** @ [**Department of Information Engineering (DII)**](https://www.dii.unipi.it), University of Pisa, Pisa, Italy
+- **Researcher** @ [**RaSS National Lab**](https://labrass.cnit.it), Pisa, Italy 
 
 #### Research Interests
 `Radar Imaging` `Radar Systems` `Signal Processing`
@@ -19,9 +18,16 @@
 > ### [Radar and Surveillance Systems National Lab](https://labrass.cnit.it)
 > _Pisa, Italy_
 > 
+> **Researcher**
+> 
+> _Mar 2025 to Present_
+
+> ### [Radar and Surveillance Systems National Lab](https://labrass.cnit.it)
+> _Pisa, Italy_
+> 
 > **Research Collaborator**
 > 
-> _Sep 2021 to Present_
+> _Sep 2021 to Feb 2025_
 
 > ### [Move Solutions](https://www.movesolutions.it)
 > _Lucca, Italy_
@@ -62,7 +68,7 @@ Operating Systems: `Windows` `Unix` `MacOS`
 > Information Engineering, Sector A
 
 > ### PhD in Information Engineering
-> _2021 - Present_
+> _2021 - 2024_
 >
 > **[Department of Information Engineering (DII)](https://www.dii.unipi.it), University of Pisa**
 > 
