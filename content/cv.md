@@ -4,9 +4,20 @@
 - **Researcher** @ [**RaSS National Lab**](https://labrass.cnit.it), Pisa, Italy 
 
 #### Research Interests
-`Radar Imaging` `Radar Systems` `Signal Processing`
+`Radar Imaging` `Radar Systems` `Signal Processing` `Electronic Warfare`
 
 ## Work Experience
+
+> ### [Radar and Surveillance Systems National Lab](https://labrass.cnit.it)
+> _Pisa, Italy_
+>
+> **Researcher**
+> 
+> _Mar 2025 to Present_
+> 
+> **Research Collaborator**
+> 
+> _Sep 2021 to Feb 2025_
 
 > ### [School of Electrical and Mechanical Engineering](https://set.adelaide.edu.au/electrical-mechanical-engineering/), University of Adelaide
 > _Adelaide, SA, Australia_
@@ -14,20 +25,6 @@
 > **Digital Signal Processing Tutor**
 > 
 > _Jul 2023 to Dec 2023_
-
-> ### [Radar and Surveillance Systems National Lab](https://labrass.cnit.it)
-> _Pisa, Italy_
-> 
-> **Researcher**
-> 
-> _Mar 2025 to Present_
-
-> ### [Radar and Surveillance Systems National Lab](https://labrass.cnit.it)
-> _Pisa, Italy_
-> 
-> **Research Collaborator**
-> 
-> _Sep 2021 to Feb 2025_
 
 > ### [Move Solutions](https://www.movesolutions.it)
 > _Lucca, Italy_
